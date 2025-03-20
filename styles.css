@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    background: #081b29;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: purple;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 100;
+    padding-left: 50px;
+    align-items: center;
+    display: flex;
+    text-align: left;
+}
+.logo{
+   
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0px;
+   
+
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 120px;
+    gap: 20px;
+    transition: 2s;
+}
+
+.navbar a :hover {
+    color: #00abf0;
+
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.home-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home-content p{
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box {
+    width: 60px;
+    height: 40px;
+    background: white;
+
+
+}
+.btn-box {
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170;
+    background: transparent;
+}
+.home-sci a{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.portfolio h5 {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #222;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
